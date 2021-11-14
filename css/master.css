@@ -5,6 +5,22 @@ html {
 :root {
     --main-color: #87C34D;
 }
+/* Start Customize Scrool Bar */
+::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+    border-radius: 15px;
+
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #71a540;
+}
+::-webkit-scrollbar-corner {
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #497520;
+}
+/* End Customize Scrool Bar */
 * {
     font-family: 'Cairo', sans-serif;
     box-sizing: border-box;
