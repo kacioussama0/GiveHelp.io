@@ -855,7 +855,8 @@ section.donation-event div.container div.event div.time-event span.seconds::befo
     }
     section.donation-event div.container div.event img {
         width: 80%;
-        margin-bottom: 20px;
+        margin-bottom: 100px;
+        
     }
     section.donation-event div.container div.event div.time-event span {
         width: 50Px;
