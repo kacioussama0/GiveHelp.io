@@ -275,6 +275,7 @@ section.statistique div.container div.statis {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
+    padding: 20px;
 }
 section.statistique div.container div.statis div {
     height: 400px;
@@ -850,11 +851,11 @@ section.donation-event div.container div.event div.time-event span.seconds::befo
 @media (max-width: 767px) {
     section.donation-event div.container div.event {
         flex-direction: column;
-
+        padding: 0 25px 25px;
     }
     section.donation-event div.container div.event img {
-        width: 100%;
-        margin-bottom: 50px;
+        width: 80%;
+        margin-bottom: 20px;
     }
     section.donation-event div.container div.event div.time-event span {
         width: 50Px;
@@ -876,7 +877,7 @@ section.contact-us {
 }
 section.contact-us .contact {
     display: flex;
-    
+    margin-bottom: 50px;
   
 }
 section.contact-us .contact form {
@@ -1008,7 +1009,10 @@ div.two ul li {
     cursor: pointer;
     transition: 0.6s;
 }
-
+div.two ul li  a{
+    text-decoration: none;
+    color: #fff;
+}
 div.two ul li:hover {
   padding-left: 5px;
   text-decoration: underline;
